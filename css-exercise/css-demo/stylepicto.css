@@ -1,0 +1,12 @@
+html{font-size: 12pt;}
+div{
+    height: 1295px;
+    width: 3356px;
+    background-image: url(IMG2081.jpeg);
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+    margin: 0px;
+    
+}
