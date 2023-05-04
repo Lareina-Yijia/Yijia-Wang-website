@@ -1,0 +1,157 @@
+#vase{
+    width:120px;
+    height:320px;
+    position:absolute;
+    top: 270px;
+    bottom: 540px;
+    left: 450px;
+}
+
+#top{
+    width:40%;
+    height: 80px;
+    position:absolute;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 200px solid forestgreen;
+    border-bottom: 40px solid transparent;
+    left: -3px;
+    bottom:-20px;
+}
+
+#ball{
+    width:100%;
+    height:40%;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:0;
+    background-color:forestgreen;
+}
+
+#bottom{
+    position:absolute;
+    bottom:0;
+    left:5%;
+    border-bottom:30% solid color;
+    border-color:forestgreen;
+    border: left 45% solid transparent;
+    border: right 45% solid transparent;
+}
+#bottom{
+    width:30%;
+    height:30%;
+    position:absolute;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 100px solid forestgreen;
+    border-bottom: 40px solid transparent;
+    left: 13px;
+    bottom:-10px;
+    transform: rotate(180deg);
+}
+
+#sticks  > div {
+    width:10px;
+    height:100%;
+    background-color:black;
+    position:absolute;
+    top: -200px;
+    left:45px;
+    transform-origin:bottom center;
+}
+
+#stick-1{transform:rotate(3deg);}
+#sticks-2{transform:rotate(15deg);}
+#sticks-3{transform:rotate(-12deg);}
+#sticks-4{transform:rotate(-6deg);}
+#sticks-5{transform:rotate(-6deg)};
+
+#oranges > div {
+    width:100%;
+    height:40%;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left: -30px;
+    background:orange;
+}
+#orange-1{left:-10px}
+
+#mouth{
+    width:1%;
+    height: 50%;
+    position:absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 70px solid skyblue;
+    border-bottom: 40px solid transparent;
+    left: 410px;
+    bottom:-150px;
+}
+#mouth1{
+    width: 60px;
+    height: 20px;
+    left:407px;
+    top:54%;
+    position:absolute;
+    background: skyblue;
+}
+
+#rec{ 
+    width: 1.9%;
+    height: 0px;
+    border-top: 20px solid skyblue;
+    border-right: 50px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 50px solid transparent;
+    transform: rotate(180deg);
+    left:374px;
+    top:54.5%;
+    position:absolute;
+}
+
+#rec2{
+    width: 100px;
+    height: 20px;
+    left:378px;
+    top:59.9%;
+    position:absolute;
+    background: skyblue;
+}
+
+#body{
+    width:40px;
+    height:175px;
+    position:absolute;
+    top:60%;
+    left:375px;
+    background-color:blue;
+    border-radius:8px;
+    transform:skewY(15deg);
+}
+#body2{
+    width:45px;
+    height:175px;
+    position:absolute;
+    top:60.8%;
+    left:415px;
+    background-color:skyblue;
+    border-radius:8px;
+    /* transform:skewY(15deg); */
+}
+#body3{
+    width:40px;
+    height:175px;
+    position:absolute;
+    top:60%;
+    left: 460px;px;
+    background-color:blue;
+    border-radius:8px;
+    transform:skewY(-15deg);
+}
+
+    
+    
+
+

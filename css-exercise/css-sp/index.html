@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herd Behavior</title>
+  <style>
+    /* 让视频元素充满整个屏幕 */
+  #myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+    /* 隐藏视频播放器的进度条 */
+    #myVideo::-webkit-media-controls {
+      display:none !important;
+    }
+  </style>
+</head>
+<body>
+  <video id="myVideo" autoplay muted controls>
+    <source src="四分半.mp4" type="video/mp4">
+    您的浏览器不支持HTML5视频播放。
+  </video>
+
+  <script>
+    var video = document.getElementById("myVideo");
+    video.addEventListener("loadedmetadata", function() {
+      video.play();
+      //toggleFullScreen(video);
+    });
+
+    function toggleFullScreen(elem) {
+      if (!document.fullscreenElement) {
+        elem.requestFullscreen().catch(err => {
+          alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+  </script>
+</body>
+</html>

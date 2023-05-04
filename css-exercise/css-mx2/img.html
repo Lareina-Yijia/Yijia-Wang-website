@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heart Flow</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="#" />
+    <style>
+.imageList {
+  /* 设置x轴方向可滚动，y轴方向不可滚动 */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* 设置高度为550px */
+  height: 550px;
+  /* 设置内部元素在同一行上 */
+  white-space: nowrap;
+  /* 去掉元素之间的空白 */
+  font-size: 0;
+}
+
+.imageList img {
+  /* 将元素显示为行内块 */
+  display: inline-block;
+  /* 设置宽度为50% */
+  width: auto;
+  /* 根据宽度自动调整高度，保持图片纵横比 */
+  height: 50%;
+}
+
+/* 第一个图片去掉右边距，与第二个图片贴在一起 */
+.imageList img:first-child {
+  margin-right: -4px;
+}
+
+/* 最后一个图片去掉右边距，使其不留空隙 */
+.imageList img:last-child {
+  margin-right: 0;
+}
+
+body {
+  /* 设置背景色为黑色 */
+  background: black;
+}
+
+div {
+  /* 设置绝对定位 */
+  position: absolute;
+  /* 设置顶部离屏幕顶部15%的距离 */
+  top: 50%;
+  /* 宽度自适应内容 */
+  width: auto;
+  /* 高度占屏幕高度的30% */
+  height: 30%;
+}
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="imageList">
+        <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+         <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+         <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+         <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+         <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+         <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+         <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+    </div>
+
+  </body>
+  
+</html>

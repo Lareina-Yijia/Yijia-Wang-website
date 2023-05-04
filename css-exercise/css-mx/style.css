@@ -1,0 +1,23 @@
+.imageList{
+        overflow-x: auto;
+        overflow-y: hidden;
+        height:550px;
+        white-space: nowrap;
+       
+     img{
+        width:auto;
+        height:100%;
+        padding-bottom: 56%;
+      }
+ }
+ body{
+    background:black;
+    }
+
+div{
+   position:absolute ;
+   top:15%;
+   width:auto;
+   height:30%;
+   } 
+
