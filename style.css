@@ -1,0 +1,72 @@
+
+.flex-container{
+    display: flex;
+    width: 1430px;
+    height: 750px;
+    /* background-color: bisque; */
+    background-size: 100% 100%;
+    
+}
+.flex-container>div{
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    /* border:1.5px solid #cccccc; */
+    margin:10px;
+    
+}
+
+
+.card{
+    width: 96px;
+    height: 80px;
+    position: relative;/*整体要相对定位*/
+    display: flex;
+    justify-content: center;
+    perspective: 500px;/*3d旋转效果*/
+   
+  }
+  .face{
+    width: 96px;
+    height: 80px;
+    position: absolute;/*部分要绝对定位*/
+    backface-visibility: hidden;/*旋转到背面后隐藏*/
+    transition: 0.5s;/*旋转时间*/
+    
+    
+  }
+  .back{
+    size: 20px;
+    position: absolute;/*部分要绝对定位*/
+    backface-visibility: hidden;/*旋转到背面后隐藏*/
+    transition: 0.5s;/*旋转时间*/
+    transform: rotateY(180deg);/*旋转多少*/
+    
+  }
+   
+  .card:hover .face{/*鼠标进入后*/
+    transform: rotateY(-180deg);/*旋转多少*/
+    
+  }
+  .card:hover .back{/*鼠标进入后*/
+    transform: rotateY(0deg);/*旋转多少*/
+    
+  }
+
+  div{
+    height: 1277px;
+    width: 1703px;
+    background-image: url(css-exercise/css-demo/IMG3164.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0px;
+    
+  }
+img.aa {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 8;
+}

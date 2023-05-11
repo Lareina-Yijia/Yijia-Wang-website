@@ -17,10 +17,13 @@ h1{font-size: 2em;
    margin-top: 0%s;
 }
 h2 {background-image: radial-gradient(blue, green); 
-    width: 145px;px
+    width: 145px;
+    color:white;
     /* height: 70px; */
 }
-h2{color: white;}
+
+
+
 h3{color: skyblue;}
 
 p{

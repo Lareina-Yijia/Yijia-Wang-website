@@ -18,7 +18,7 @@ h1{font-size: 2em;
 }
 h2,h3 {
     background-image: radial-gradient(blueviolet,blueviolet); 
-    width: 145px;px
+    width: 145px;
     height: 70px;
 }
 h2{color: white;}
@@ -53,24 +53,24 @@ div{
     
 }
 .block img{
-    float:left
+    float:left;
     margin: right 10px;
-    width:100px
-    height:100px
+    width:100px;
+    height:100px;
 }
 .block p{
-    float:right
-    width:200px
+    float:right;
+    width:200px;
     height: 100px;
     line: height 20px;
-    overflow:hidden
-    color:white
+    overflow:hidden;
+    color:white;
 }
 /* p{text-align:center} */
 .good{border-bottom: 3px solid;}
 .block{text-align : right}
 
 h3{
-    border-bottom 3px solid;
+    border-bottom: 3px solid;
     border-color: black;
 }

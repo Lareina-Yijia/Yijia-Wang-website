@@ -1,0 +1,38 @@
+#bigbox
+{
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin: auto auto;
+}
+#box1
+{position: relative;
+height: 100px;
+width:100px;
+border-radius: 80%;
+background-color: #E06D6D;
+top:75px;
+animation: move;
+animation-duration: 3s;  /*完成动画的时间*/
+animation-direction: alternate;/*设置动画是可以倒过来来回播放的*/
+animation-iteration-count: 4;/*设置动画的来回播放次数，一来一回count计数为2*/
+}
+
+@keyframes move
+{
+    0%{
+        transform:translate(0px,0px);
+    }
+    50%
+    {
+        transform:translate(300px,0px);
+        background-color:royalblue;
+        border-radius: 0%;
+    }
+    100%
+    {
+        transform:translate(600px,0px);
+        background-color: black;
+    }
+
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background-color: white;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    border-radius: 50%;
+    border:2px solid black;
+    position: relative;
+    animation: run 3s ease infinite;
+}
+#box::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 90px;
+    margin-top: -10px;
+    
+}
+@keyframes run{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

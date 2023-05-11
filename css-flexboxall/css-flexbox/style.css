@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    width: 1430px;
+    height: 750px;
+    background-color: bisque;
+    background-size: 100% 100%;
+}
+.flex-container>div{
+    width: 450px;
+    height: 500px;
+    background-color: skyblue;
+    border:1px solid #cccccc;
+    margin:auto;
+}
+
+.box{
+    height:100px;
+    
+}
+body{
+    font-size:30px ;
+}
+
+
+
+
+
